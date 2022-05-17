@@ -1,0 +1,40 @@
+export const manifest = {
+	'version': 1.0,
+	'fps': 30,
+	'frameCount': 150,
+	'width': 4096,
+	'height': 256,
+	'maxIndicesCount' : 599784,
+	'gopChunks' : [
+		{ 'from':0, 'filename' : require('./assets/gop_tvm_0.tvm') },
+		{ 'from':30, 'filename' : require('./assets/gop_tvm_1.tvm') },
+		{ 'from':60, 'filename' : require('./assets/gop_tvm_2.tvm') },
+		{ 'from':82, 'filename' : require('./assets/gop_tvm_3.tvm') },
+		{ 'from':90, 'filename' : require('./assets/gop_tvm_4.tvm') },
+		{ 'from':98, 'filename' : require('./assets/gop_tvm_5.tvm') },
+		{ 'from':117, 'filename' : require('./assets/gop_tvm_6.tvm') },
+		{ 'from':120, 'filename' : require('./assets/gop_tvm_7.tvm') },
+		{ 'from':149, 'filename' : require('./assets/gop_tvm_8.tvm') }
+	],
+	'posChunks' : [
+		{ 'from':0, 'filename' : require('./assets/position_tvm_0.tvm') },
+		{ 'from':8, 'filename' : require('./assets/position_tvm_1.tvm') },
+		{ 'from':16, 'filename' : require('./assets/position_tvm_2.tvm') },
+		{ 'from':24, 'filename' : require('./assets/position_tvm_3.tvm') },
+		{ 'from':32, 'filename' : require('./assets/position_tvm_4.tvm') },
+		{ 'from':40, 'filename' : require('./assets/position_tvm_5.tvm') },
+		{ 'from':48, 'filename' : require('./assets/position_tvm_6.tvm') },
+		{ 'from':56, 'filename' : require('./assets/position_tvm_7.tvm') },
+		{ 'from':64, 'filename' : require('./assets/position_tvm_8.tvm') },
+		{ 'from':72, 'filename' : require('./assets/position_tvm_9.tvm') },
+		{ 'from':80, 'filename' : require('./assets/position_tvm_10.tvm') },
+		{ 'from':88, 'filename' : require('./assets/position_tvm_11.tvm') },
+		{ 'from':96, 'filename' : require('./assets/position_tvm_12.tvm') },
+		{ 'from':104, 'filename' : require('./assets/position_tvm_13.tvm') },
+		{ 'from':112, 'filename' : require('./assets/position_tvm_14.tvm') },
+		{ 'from':120, 'filename' : require('./assets/position_tvm_15.tvm') },
+		{ 'from':128, 'filename' : require('./assets/position_tvm_16.tvm') },
+		{ 'from':136, 'filename' : require('./assets/position_tvm_17.tvm') },
+		{ 'from':144, 'filename' : require('./assets/position_tvm_18.tvm') }
+	]
+};
