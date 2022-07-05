@@ -14,6 +14,40 @@ body {
 	width: 35%;
 }
 
+.menu-btn {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background: linear-gradient(to bottom, #d9af2b 5%, #ccae4a 100%);
+	background-color: #d9af2b;
+	border-radius: 18px;
+	border: 1px solid #d9af2b;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 2em;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #8e741c;
+}
+.menu-btn:hover {
+	background: linear-gradient(to bottom, #d9af2b 5%, #8e741c 100%);
+	background-color: #8e741c;
+}
+.menu-btn:active {
+	position: relative;
+	top: 1px;
+}
+
+.fixed-bottom-right {
+	position: fixed;
+	bottom: 3%;
+	right: 2%;
+	width: 20vw;
+}
+
+.txt-right {
+	text-align: right;
+}
+
 .button {
 	font-size: xx-large;
 	box-shadow: 3px 4px 3px 0px #1a4770;
@@ -122,4 +156,23 @@ body {
 	50% {
 		opacity: 0.5;
 	}
+}
+
+.margin-right-2 {
+	margin-right: 2em;
+	z-index: 9999999;
+}
+
+.hidden {
+	opacity: 0;
+	visibility: hidden;
+	transform: translate(0, -0.5em);
+	transition: opacity 1s, transform 1s, visibility 1.5s;
+}
+
+.visible {
+	opacity: 1;
+	visibility: visible;
+	transform: translate(0, 0);
+	transition: opacity 1s, transform 1s;
 }
