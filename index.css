@@ -201,6 +201,13 @@ body {
 	z-index: 9999999;
 }
 
+.margin-right-05 {
+	margin-right: 0.5em;
+}
+.margin-left-05 {
+	margin-right: 0.5em;
+}
+
 
 .hidden {
 	opacity: 0;
