@@ -51,13 +51,12 @@ body {
 .fixed-bottom-right {
 	position: fixed;
 	bottom: 3%;
-	right: 2%;
-	width: 20vw;
+	right: 6%;
 }
 .fixed-bottom-left {
 	position: fixed;
 	bottom: 3%;
-	left: 2%;
+	left: 6%;
 }
 .fixed-mid-left {
 	position: fixed;
@@ -207,7 +206,6 @@ body {
 .margin-left-05 {
 	margin-right: 0.5em;
 }
-
 
 .hidden {
 	opacity: 0;
